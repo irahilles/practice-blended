@@ -8,21 +8,14 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load
-      src="./partials/header.html"
-      icon-path="./img/sprite.svg#logo"
-      highlight-curr="active"
-    />
-
-    <main>
-      <div class="container">
-        <h1 class="main-title">
-          <span class="main-title-gradient">Welcome</span> to page 3
-        </h1>
         <load src="./partials/back-link.html" />
-      </div>
-    </main>
+        <h2>Задача 2</h2>
+    <form id="task-form">
+      <input type="text" name="taskName" />
+      <button type="submit">Добавить</button>
+    </form>
 
-    <load src="./partials/footer.html" />
+    <ul id="task-list"></ul>
+   <script type="module" src="./js/task-2.js"></script>
   </body>
 </html>
